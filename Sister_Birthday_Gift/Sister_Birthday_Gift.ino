@@ -138,7 +138,7 @@ void TimerInit(void)
   TCCR1B = (1<<WGM12)|(1<<CS11)|(1<<CS10); //CTC mode, prescalar = 64
   OCR1A = 249; //1ms repetition rate 
   sei();//enable global interrupt
-  TIMSK1 = (1<<OCIE1A); //enable timer0 compare match A interrupt  
+  TIMSK1 = (1<<OCIE1A); //enable timer 1 compare match A interrupt  
 }
 
 void Display(char* msg,int row = 1, int col = 1)
