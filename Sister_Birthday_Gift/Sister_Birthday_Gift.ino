@@ -1,5 +1,5 @@
 /*
- * Simple birthday gift for my sister (Ore-Oluwa Raji)
+ * Simple birthday gift for my sister 
  * Credits:
  * 1. Vector X (https://www.youtube.com/watch?v=d-WkHkuYSPQ)
  * 2. Adafruit OLED Library (The Adafruit_SH1106.cpp was modified to suit the Arduino Nano)
@@ -168,11 +168,9 @@ void setup(void)
 
 void loop(void) 
 {
-  Display("HAPPY BIRTHDAY\n\nORE-OLUWA RAJI");
+  Display("HAPPY BIRTHDAY\n\nTO YOU");
   delay(3000);
   Display("WE WISH YOU A LONG\n\nLIFE AND PROSPERITY");
-  delay(3000);
-  Display("WE LOVE YOU");
   delay(3000);
   DisplayLove();
   delay(3000);
